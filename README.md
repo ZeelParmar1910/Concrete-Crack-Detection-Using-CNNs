@@ -149,7 +149,7 @@ Phase 2/
 
 ## Author
 
-[Your Full Name] — Pattern Recognition Course Project (SS26)
+Zeel Dharmendrakumar Parmar — Pattern Recognition Course Project (SS26)
 
 ---
 
