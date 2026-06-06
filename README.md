@@ -18,16 +18,16 @@ This project uses Convolutional Neural Networks to classify concrete surface ima
 
 ## Results
 
-| Model | Accuracy | Precision | Recall | F1-Score | AUC-ROC | Parameters | Inference (ms/img) |
-|-------|----------|-----------|--------|----------|---------|------------|-------------------|
-| Custom CNN | **99.90%** | 99.87% | 99.93% | 99.90% | 0.9999 | 456K | 19.8 |
-| MobileNetV2 | **99.93%** | 99.93% | 99.93% | 99.93% | 1.0000 | 2.6M | 129.1 |
-| ResNet50 | 99.02% | 99.86% | 98.17% | 99.01% | 0.9998 | 24.1M | 119.5 |
+| Model | Accuracy | Precision | Recall | F1-Score | AUC-ROC | Parameters | Inference (ms/img) | Training Time |
+|-------|----------|-----------|--------|----------|---------|------------|--------------------|---------------|
+| Custom CNN | **99.90%** | 99.87% | 99.93% | 99.90% | 0.9999 | 456K | 20.3 | 17 min 12 s |
+| MobileNetV2 | **99.93%** | 99.93% | 99.93% | 99.93% | 1.0000 | 2.6M | 127.1 | 11 min 54 s |
+| ResNet50 | 99.48% | 99.73% | 99.23% | 99.48% | 0.9999 | 24.1M | 115.4 | 41 min 0 s |
 
-**Best model: MobileNetV2** (highest accuracy + perfect AUC-ROC)  
-**Most efficient: Custom CNN** (99.9% accuracy with only 456K parameters, 6.5× faster inference than transfer learning models)
+**Best model: MobileNetV2** (highest accuracy + perfect AUC-ROC, fastest training)  
+**Most efficient: Custom CNN** (99.9% accuracy with only 456K parameters, 6.3× faster inference than transfer learning models)
 
-*Results on 6,000-image held-out test set (15% of total data).*
+*Results on 6,000-image held-out test set (15% of total data). Training times measured on Kaggle GPU (T4).*
 
 ## How to Run
 
