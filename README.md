@@ -34,8 +34,10 @@ This project uses Convolutional Neural Networks to classify concrete surface ima
 ### On Kaggle (recommended)
 1. Go to the [Kaggle Notebook](YOUR_KAGGLE_NOTEBOOK_LINK) — update this after uploading
 2. Click **Copy & Edit**
-3. Go to **Settings → Accelerator → GPU T4 x2** (or P100)
-4. Run all cells
+3. Click **+ Add Input** (top right of the notebook) → search for **Surface Crack Detection** → select the dataset by `arunrk7` → click **Add**
+   - This mounts the dataset at `/kaggle/input/surface-crack-detection/` with `Negative/` and `Positive/` subfolders
+4. Go to **Settings → Accelerator → GPU T4 x2** (or P100)
+5. Run all cells
 
 ### On Google Colab
 1. Open [Google Colab](https://colab.research.google.com/) and upload `concrete_crack_detection_cnn.ipynb`
