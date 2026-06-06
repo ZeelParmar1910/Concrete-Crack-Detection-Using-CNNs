@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+docs/*
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large model files (save these outside the repo)
+*.h5
+*.keras
+*.pt
+*.pth
+saved_models/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Word temp files
+~$*.docx
+
+# IDE
+.vscode/
+.idea/
