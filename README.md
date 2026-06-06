@@ -138,14 +138,6 @@ Phase 2/
 - Error analysis (false positives and false negatives)
 - Inference time comparison
 
-## Generating the Proposal Document
-
-```bash
-cd "Phase 2"
-python generate_proposal.py
-# Output: docs/Phase2_Proposal.docx
-```
-
 ## Requirements
 
 - Python 3.8+
